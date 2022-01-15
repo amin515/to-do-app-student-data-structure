@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 13 Backup season</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container my-5 mt-5 w-75">
+          <h1 class="comming-soon">Comming Soon App</h1>
+        <div class="row">
+            <div class="col">
+                <button id="go" class="btn btn-success">Go</button>
+                <button id="stop" class="btn btn-danger">Stop</button>
+                <hr>
+                <h1 id="h1"></h1>
+            </div>
+        </div>
+    </div>
+    <!-- counter start -->
+<p style="color:white;">=========================================================================================================================================</p>
+    <div class="container-2 mt-5 my-5 w-75 mx-auto">
+        <h1 class="b-counter">Basic Counter</h1>
+        <div class="row">
+            <div class="col">
+                <button id="start" class="btn btn-success">Start</button>
+                <button id="stop1" class="btn btn-danger">Stop</button>
+                <button id="reset" class="btn btn-primary">Reset</button>
+                <hr>
+                <h1 id="res" style="font-size: 200px;color: red;">0</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- counter two start -->
+
+<p style="color:white;">=========================================================================================================================================</p> 
+
+    <div class="container-2 mt-5 my-5 w-75 mx-auto">
+        <h1 class="loaderr">Loder with Counter discress</h1>
+        <div class="row">
+            <div class="col">
+                <button id="start2" class="btn btn-success">Start2</button>
+                <button id="stop2" class="btn btn-danger">Stop2</button>
+                <input type="text" id="inp" class="form-control mt-5">
+
+                <div class="load mt-5" style="border: 1px solid red; border-radius: 50px;">
+                    <div id="loader" style="width: 100%; height: 30px; background-color: red; border-radius: 100px;"
+                    class="loader"></div>
+                </div>
+               
+                <hr>
+                <h1 id="p1" style="font-size: 200px;color: blue;">0</h1>
+            </div>
+        </div>
+    </div>
+
+<p style="color:white;">=========================================================================================================================================</p>
+
+    <!-- start to do app -->
+   
+    <div class="container 3">
+        <h1 class="todo-app">Basic To-Do App</h1>
+        <input type="text" id="to-do" class="form-control">
+        <input type="text" id="btn" class="btn btn-success my-5" value="submit">
+        <p id="p2"></p>
+    </div>
+
+    <!-- to do app end -->
+    <!-- student data start -->
+
+    <p style="color:white;">=========================================================================================================================================</p>
+
+    <div class="second-container d-flex">
+
+        <div class="data-left w-50">
+
+            <div class="container-4">
+                <h1 class="top-text">Student data structure</h1>
+    
+    
+                <div class="student-data">
+    
+                    <form action="#" id="form">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" oninvalid="alert('must fill out the form')" class="form-control w-50" placeholder="Name">
+                        <p id="pm"></p>
+                        <label for="fname">Your Father name</label>
+                        <input type="text" id="fname" class="form-control w-50" placeholder="Father Name">
+                        <p id="pn"></p>
+                        <label for="mname">Your Mother name</label>
+                        <input type="text" id="mname" class="form-control w-50" placeholder="Mother Name">
+                        <p id="po"></p>
+                        <label for="roll">Roll no:</label>
+                        <input type="number" id="roll" class="form-control w-50" placeholder="Roll No:">
+                        <label for="location">Your Location</label>
+                        <input type="text" id="loc" class="form-control w-50" placeholder="Location">
+                        <p id="pp"></p>
+    
+    
+                        <h2 class="all-mark">Subject for All marks</h2>
+    
+    
+                        <label for="bn">*Bangla mark*</label>
+                        <input type="number" id="bn" class="form-control w-50" placeholder="Bangla Mark:">
+                        <label for="en">*English Mark*</label>
+                        <input type="number" id="en" class="form-control w-50" placeholder="English Mark:">
+                        <label for="math">*Math Mark*</label>
+                        <input type="number" id="math" class="form-control w-50" placeholder="Math Mark:">
+                        <label for="s">*Science Mark*</label>
+                        <input type="number" id="sci" class="form-control w-50" placeholder="Science Mark:">
+                        <label for="ss">*S-Sceince Mark*</label>
+                        <input type="number" id="ss" class="form-control w-50" placeholder="S-Science Mark:">
+                        <label for="rel">*Religion Mark**</label>
+                        <input type="number" id="rel" class="form-control w-50" placeholder="Religion Mark:">
+    
+    
+                        <button class="btn btn-success btn-block mt-3">Submit</button>
+    
+                    </form>
+    
+                  
+    
+    
+                </div>
+               
+            </div>
+        </div>
+        <div class="data-right w-50">
+            <h1 class="top2-text">Student data Result</h1>
+            <h1 id="lodd"></h1>
+            <table>
+               
+                <tbody id="tbody1">
+        
+                </tbody>
+                <br>
+                <br>
+               
+                <tbody id="tbody2">
+        
+                </tbody>
+        
+            </table>
+
+            <p id="result4"></p>
+        
+        
+        </div>
+
+    </div>
+
+
+    <!-- student data end -->
+    
+
+<p style="color:white;">=========================================================================================================================================</p>
+
+  
+    <script src="./function.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>

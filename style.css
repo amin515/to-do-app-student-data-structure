@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif !IMPORTANT;
+    background-color: #26323f !IMPORTANT;
+}
+/* count data end */
+/* student data */
+
+h1#h1 {
+    color: white;
+}
+.student-data th{
+
+    border: 1px solid #ddd;
+    padding: 0 20px;
+}
+
+
+.student-data {
+    padding-left: 60px;
+}
+
+
+tbody#tbody1 tr td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0;
+    background: red;
+    color: white;
+}
+tbody#tbody2 tr td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0;
+    background: red;
+    color: white;
+}
+
+thead tr {
+    background: yellow;
+}
+
+tr th {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: -webkit-center;
+    /* text-align: center; */
+}
+
+button.btn.btn-success.mt-3 {
+    position: absolute;
+    top: 260%;
+    left: 35%;
+    width: 12%;
+    height: 26%;
+    font-size: 40px;
+    line-height: 42px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+
+#lodd{
+    font-size: 100px;
+}
+
+h1.top-text {
+    padding-left: 20px !IMPORTANT;
+    background: red;
+    width: 70%;
+    margin-left: 40px;
+    padding: 20px;
+    font-size: 44px;
+    color: wheat;
+    border-radius: 10px;
+    left: 20px;
+    position: relative;
+}
+h1.top2-text {
+    background: green;
+    width: 56%;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    left: 200px;
+}
+
+tr th {
+    background: yellow;
+}
+
+
+h1.comming-soon {
+    color: #d2770b;
+}
+h1.b-counter {
+    color: #2f9615;
+}
+
+h1.loaderr {
+    color: #169e9e;
+}
+h1.todo-app {
+    color: #c924d4;
+}
+h2.all-mark {
+    color: #0c8059;
+}
+label {
+    color: red;
+}
+
+
+/* Digital Clock start */
+
+
+
+
+
